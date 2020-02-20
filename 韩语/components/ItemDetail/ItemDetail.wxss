@@ -1,0 +1,36 @@
+/* components/ItemDetail/ItemDetail.wxss */
+.item{
+    width:700rpx;
+    height:100rpx;
+    border-bottom:1px solid #aaa;
+    font-size:14px;
+    position: relative;
+    padding-left:50rpx;
+}
+.time{
+    font-size:16px;
+    position: absolute;
+    right:100rpx;
+    top:10px;
+}
+.name{
+    width:300rpx;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+    color:rgb(189, 57, 57);
+}
+.album{
+   position: absolute;
+   left:300rpx; 
+   width:250rpx;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+}
+.detail{
+    width:200rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

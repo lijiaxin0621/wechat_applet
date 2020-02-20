@@ -1,0 +1,10 @@
+function format(value){
+    if(value!=null){
+        if(value%2==0){
+            return 0
+        }
+    }
+}
+module.exports = {
+    format:format
+}

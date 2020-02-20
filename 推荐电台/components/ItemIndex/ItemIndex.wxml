@@ -1,0 +1,12 @@
+<!--components/ItemIndex/ItemIndex.wxml-->
+<view class="item" bind:tap="handleClick">
+    <slot name="icon"></slot>
+    <view>
+    <image class="pic" src="{{data.coverUrl}}"></image>
+    </view>
+    <view class="detail">
+    <text class="name">{{data.name}}</text>
+    <text class="radio">{{data.radio.name}}</text>
+    </view>
+    <view class="category">{{data.radio.category}}</view>
+    </view>

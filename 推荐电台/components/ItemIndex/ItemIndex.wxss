@@ -1,0 +1,39 @@
+/* components/ItemIndex/ItemIndex.wxss */
+.item{
+    width:700rpx;
+    height:150rpx;
+    border:1px solid #ddd;
+    display: flex;
+    font-size:13px;
+    padding:20rpx;
+    margin-bottom: -1rpx;
+}
+.pic{
+    width:100rpx;
+    height:130rpx;
+    margin-right:20rpx;
+}
+.detail{
+    width:420rpx;
+    display:flex;
+    flex-direction: column;
+    line-height:30px;
+}
+.name,.radio{
+    width:400rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.name{
+    font-size:13px;
+}
+.radio{
+    font-size:12px;
+    color:rgb(90, 90, 90);
+}
+.category{
+    height:50rpx;
+    border:1px solid #333;
+    margin-top:20rpx;
+}

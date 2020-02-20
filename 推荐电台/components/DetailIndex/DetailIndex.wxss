@@ -1,0 +1,81 @@
+/* components/DetailIndex/DetailIndex.wxss */
+.item{
+    width:700rpx;
+    margin:0 auto;
+    margin-top:45rpx;
+}
+.top{
+    width:700rpx;
+    height:380rpx;
+    position: relative;
+}
+.pic{
+    width:210rpx;
+    height:240rpx;
+    position: absolute;
+}
+.name{
+    position: absolute;
+    top:60rpx;
+    left:225rpx;
+}
+.radio{
+    width:200rpx;
+}
+.radioName{
+    color:rgb(90, 90, 90);
+    font-size:13px;
+    position: absolute;
+    top:175rpx;
+    left:270rpx;
+    width:200rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.subCount{
+    font-size:13px;
+    position: absolute;
+    top:177rpx;
+    left:460rpx;
+    width:180rpx;
+    height:50rpx;
+    border:1px solid #ddd;
+    padding-left:50rpx;
+}
+.duration{
+    font-size: 12px;
+    width:350rpx;
+    background:#418FD9;
+    position: absolute;
+    top:320rpx;
+    left:27rpx;
+    z-index: 100;
+}
+.btns{
+    width:700rpx;
+    margin:0 auto;
+    height:70rpx;
+    display: flex;
+    margin-bottom: 40rpx;
+}
+.btns button{
+    font-size:12px;
+    width:200rpx;
+    background: none;
+}
+.type{
+    font-size:14px;
+    border:1px solid #CC0000;
+    padding:5rxp;
+    color:#CC0000;
+}
+.intro{
+    font-size:14px;
+}
+.radio{
+    margin:50rpx 30rpx;
+    font-size: 15px;
+    font-weight:bold; 
+}

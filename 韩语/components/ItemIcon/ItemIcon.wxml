@@ -1,0 +1,7 @@
+<!--components/ItemIcon/ItemIcon.wxml-->
+<view class="item" bind:tap="handleClick">
+    <slot name="icon"></slot>
+    <image class="bg" src="{{data.coverImgUrl}}"></image>
+    <text class="content">{{data.name}}</text>
+    <text class="content">by:{{data.nickname}}</text>
+</view>

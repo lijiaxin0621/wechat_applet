@@ -1,0 +1,12 @@
+<view class="container">
+  <image class="pan" src="/images/pan.png" alt="" />
+  <image class="handle {{isPlay?'move':'unmove'}}" src="/images/shou.png" alt="" />
+  <view class="bg" wx:for="{{musics}}" wx:key="{{item}}">
+    <image class="pic {{!isPlay?'rotate':'paused'}}" src="{{item.img}}"></image>
+    <image class="bg-pic" src="{{item.img}}"></image>
+    <view class="cover"></view>
+  </view>
+  <view class="playmusic" wx:for="{{musics}}" wx:key="{{item}}">
+    <image bind:tap="handleMusic" data-url="{{item.src}}" src="{{isPlay?'/images/play.png':'/images/pause.png'}}"></image>
+  </view>
+</view>

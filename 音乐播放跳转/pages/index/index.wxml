@@ -1,0 +1,16 @@
+<view class="top">
+    <text>华语</text>
+</view>
+<view class="container">
+  <view class="item"
+   data-id="{{item.id}}"
+   bind:tap="handleClick"
+   wx:for="{{musics}}"
+   wx:key="{{item.id}}" >
+  <image class="item-bg" src="{{item.imgUrl}}"></image>
+  <text class="name">{{item.name}}</text>
+  <view class="by">
+    by:<text class="">{{item.creatorName}}</text>
+  </view>
+  </view>
+</view>

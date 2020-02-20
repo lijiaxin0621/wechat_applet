@@ -1,0 +1,10 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+    <v-detail wx:for="{{lists}}"
+    data="{{item}}"
+    wx:key="{{item.id}}">
+    <view slot="iconDetail" class="iconDetail">
+    <image src="/images/play.png"></image>
+    </view>
+    </v-detail>
+</view>

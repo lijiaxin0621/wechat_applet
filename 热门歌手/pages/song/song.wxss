@@ -1,0 +1,9 @@
+/* pages/song/song.wxss */
+.container{
+    width:700px;
+    margin:0 auto;
+}
+.iconSong image{
+    width:36rpx;
+    height:36rpx;
+}

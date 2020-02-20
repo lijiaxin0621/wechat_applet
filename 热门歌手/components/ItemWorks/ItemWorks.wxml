@@ -1,0 +1,7 @@
+<!--components/ItemWorks/ItemWorks.wxml-->
+<view class="item">
+    <slot name="iconWorks"></slot>
+    <image class="pic" src="{{data.picUrl}}"></image>
+    <view class="name">{{data.name}}</view>
+    <view class="publishTime">{{data.publishTime}}</view>
+</view>

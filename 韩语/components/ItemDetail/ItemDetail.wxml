@@ -1,0 +1,11 @@
+<!-- components/ItemDetail/ItemDetail.wxml -->
+<view class="item"
+ bind:tap="handleClick">
+    <slot name="iconDetail"></slot>
+    <text class="name">{{data.name}}</text>
+    <text class="time">{{data.dt}}</text>
+    <view class="detail">
+    <text>{{data.singer}}</text>
+    <text class="album">{{data.al}}</text>
+    </view>
+</view>

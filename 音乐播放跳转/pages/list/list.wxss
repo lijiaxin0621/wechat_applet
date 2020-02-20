@@ -1,0 +1,50 @@
+.top{
+    height:50rpx;
+    width:680rpx;
+    margin:0 auto;
+    border-bottom: 2px solid #c20c0c;
+}
+.item-bg{
+    width:100rpx;
+    height:100rpx;
+    margin-right:30rpx;
+  }
+  .play{
+    width:80rpx;
+    height:80rpx;
+  }
+  .num{
+    width:50rpx;
+    text-align: center;
+    margin-right:10rpx;
+    font-size:40rpx;
+    color:#c20c0c;
+  }
+  .item{
+    padding:20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+  }
+  .item .left{
+    display:flex;
+    align-items: center;
+  }
+  .name{
+    color:rgb(69,162,233);
+    font-size:35rpx;
+  }
+  .item .right{
+    display:flex;
+    align-items: center;
+  }
+  .item .play{
+    margin-left:20px;
+  }
+  .artistName{
+    font-size:32rpx;
+  }
+  .right text{
+    font-size:28rpx;
+  }

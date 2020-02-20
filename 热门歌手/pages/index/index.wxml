@@ -1,0 +1,8 @@
+<!-- index.wxml -->
+<view class="container-grid">
+  <v-index data="{{item}}"  wx:for="{{artists}}" wx:key="{{item.id}}">
+    <view slot="icon" class="icon">
+      <image src="/images/歌手.png"></image>
+    </view>
+  </v-index>
+</view>

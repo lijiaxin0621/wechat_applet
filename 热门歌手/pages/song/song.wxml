@@ -1,0 +1,8 @@
+<!--pages/song/song.wxml-->
+<view class="container-grid">
+    <v-song data="{{item}}" wx:for="{{songs}}" index="{{index}}" wx:key="{{item.id}}">
+        <view slot="iconSong" class="iconSong">
+            <image src="/images/play.png"></image>
+        </view>
+    </v-song>
+</view>

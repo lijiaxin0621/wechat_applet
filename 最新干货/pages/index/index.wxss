@@ -1,0 +1,10 @@
+.container{
+    width:700rpx;
+    margin:0 auto;
+}
+.title{
+    width:700rpx;
+    height:50rpx;
+    font-size:25px;
+    color:#333;
+}

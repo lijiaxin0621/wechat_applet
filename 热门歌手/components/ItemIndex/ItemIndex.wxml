@@ -1,0 +1,8 @@
+<!--components/ItemIndex/ItemIndex.wxml-->
+<view class="item" bind:tap="handleClick">
+<slot name="icon"></slot>
+  <image class="pic" src="{{data.picUrl}}" ></image>
+  <view class="name">
+  <text>{{data.name}}</text> 
+  </view>
+</view>

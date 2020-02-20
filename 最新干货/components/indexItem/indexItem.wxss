@@ -1,0 +1,31 @@
+/* components/indexItem/indexItem.wxss */
+.item{
+    font-size:13px;
+    width:660rpx;
+    box-shadow: 3rpx 4rpx 6rpx 4rpx #aaa;
+    margin:40rpx 0;
+    padding: 30rpx 20rpx;
+}
+.desc{
+    font-size: 15px;
+    margin-bottom: 40rpx;
+}
+.new{
+    padding:4rpx 6rpx ;
+    background: #DC3545;
+    border-radius: 20rpx;
+    color:#fff;
+    margin-right: 20rpx;
+}
+.who{
+    padding:4rpx 8rpx ;
+    background: #17A2B8;
+    border-radius: 20rpx;
+    color:#fff;
+}
+.createdAt{
+   margin-top:30rpx;
+   width:170rpx;
+   overflow: hidden;
+   white-space: nowrap;
+}

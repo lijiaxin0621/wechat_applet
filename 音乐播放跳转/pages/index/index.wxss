@@ -1,0 +1,28 @@
+.top{
+    width:680rpx;
+    margin:0 auto;
+    height:50rpx;
+    border-bottom: 2px solid #c20c0c;
+    font-size:18px;
+}
+.container{
+  margin-top:30rpx;
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.item{
+  width:200rpx;
+  height:300rpx;
+}
+.item-bg{
+  width:200rpx;
+  height:200rpx;
+}
+.name{
+  font-size:12px;
+}
+.by{
+  font-size:12px;
+}

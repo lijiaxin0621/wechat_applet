@@ -1,0 +1,9 @@
+<!--pages/play/play.wxml-->
+<view class="container">
+    <v-comment wx:for="{{comment}}" wx:key="{{item.id}}"  data="{{item}}">
+        <view slot="iconComment" class="iconComment" >
+        <image class="like" src="/images/赞.png"></image>
+      
+        </view>
+    </v-comment>
+</view>

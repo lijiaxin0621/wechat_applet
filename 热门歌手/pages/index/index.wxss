@@ -1,0 +1,8 @@
+/**index.wxss**/
+.icon image{
+  width:36rpx;
+  height:36rpx;
+  position: absolute;
+  top:210rpx;
+  left:165rpx;
+}

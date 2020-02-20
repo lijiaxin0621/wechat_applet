@@ -1,0 +1,15 @@
+<!-- pages/detail/detail.wxml -->
+<view class="container-grid">
+    <v-detail data="{{item}}" wx:for="{{lists}}" wx:key="{{item.id}}">
+        <view slot="iconDetail" class="iconDetail">
+            <image class="bg" src="/images/推荐电台.png"></image>
+            <image class="musicIcon" src="/images/音乐 (1).png"></image>
+            <image class="like" src="/images/赞.png"></image>
+            <image class="comment" src="/images/评论.png"></image>
+            <image class="trans" src="/images/转发.png"></image>
+            <image class="star" src="/images/星星-线.png"></image>
+            <image class="song" src="/images/Music Icon.png"></image><text class="pro">生成外链播放器</text>
+            <image class="play" src="/images/pause.png"></image>
+        </view>
+    </v-detail>
+</view>
