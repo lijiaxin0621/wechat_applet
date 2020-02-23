@@ -1,8 +1,0 @@
-<!--pages/works/works.wxml-->
-<view class="container-grid">
-    <v-works data="{{item}}" wx:for="{{works}}" wx:key="{{item.id}}">
-        <view slot="iconWorks" class="iconWorks">
-            
-        </view>
-    </v-works>
-</view>

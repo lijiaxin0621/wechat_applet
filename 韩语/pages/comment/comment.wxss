@@ -1,8 +1,0 @@
-/* pages/play/play.wxss */
-.like{
-    width:36rpx;
-    height:36rpx;
-    position: absolute;
-    right:85rpx;
-    top:150rpx;
-}

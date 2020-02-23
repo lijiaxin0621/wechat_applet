@@ -1,5 +1,0 @@
-/* pages/works/works.wxss */
-.iconWorks image{
-    width:36rpx;
-    height:36rpx;
-}

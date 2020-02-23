@@ -1,7 +1,0 @@
-<!--index.wxml-->
-<view class="container-grid">
- <v-index data="{{item}}" wx:for="{{programs}}" wx:key="{{item.id}}">
-     <view slot="icon" class="icon">
-     </view>
- </v-index>
-</view>
