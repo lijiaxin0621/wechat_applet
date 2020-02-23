@@ -1,0 +1,19 @@
+<!-- pages/read-detail/read-detail.wxml -->
+<view class="item" wx:for="{{item}}" wx:key="{{item.id}}" data="{{item}}">
+    <view class="top">
+    <image class="top-pic" src="{{item.imgSrc}}"></image>
+    <image bind:tap="handleMusic" class="music-icon" src="{{isPlay?'/images/music/music-stop.png':'/images/music/music-start.png'}}"></image>
+    </view>
+    <view class="content">
+        <view class="detail">
+            <image class="user-pic" src="{{item.avatar}}"></image>
+            <text class="type">{{item.author}}</text>
+            <text>发表于 {{item.dateTime}}</text>
+        </view>
+        <view class="title">{{item.title}}</view>
+        <image bind:tap="handleCollect" class="collection" src="{{isCollected?'/images/icon/collection.png':'/images/icon/collection-anti.png'}}"></image>
+        <image bind:tap="share" class="share" src="/images/icon/share-anti.png"></image>
+        
+    </view>
+    <view class="foreword">{{item.detail}}</view>
+</view>

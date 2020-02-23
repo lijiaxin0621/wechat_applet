@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "v-music":"/components/music-item/music-item"
+  }
+}

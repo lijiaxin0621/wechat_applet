@@ -1,0 +1,4 @@
+/* pages/movie-detail/movie-detail.wxss */
+.container{
+    padding:30rpx;
+}

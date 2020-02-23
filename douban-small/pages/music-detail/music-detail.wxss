@@ -1,0 +1,30 @@
+/* pages/music-detail/music-detail.wxss */
+.top{
+    width:750rpx;
+    height:400rpx;
+}
+.item{
+    width:650rpx;
+    height:210rpx;
+    border-bottom:1px solid #ddd; 
+    display: flex;
+    justify-content: space-around;
+    padding:30rpx;
+    margin:0 auto;
+}
+.pic{
+    width:150rpx;
+    height:200rpx;
+}
+.pause{
+    margin-top:80rpx;
+    width:50rpx;
+    height:50rpx;
+}
+.all-name{
+    width:500rpx;
+    display: flex;
+    flex-direction: column;
+    line-height:80rpx;
+    margin-left:30rpx;
+}

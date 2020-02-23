@@ -1,0 +1,8 @@
+<!--pages/read/read.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" indicator-Color="{{indicatorColor}}"
+ indicator-active-color="{{active}}">
+<swiper-item wx:for="{{banners}}" wx:key="{{item.id}}">
+    <image src="{{item.imageUrl}}"></image>
+</swiper-item>
+</swiper>
+<v-item data="{{item}}" wx:for="{{postList}}" wx:key="{{item.title}}"></v-item>

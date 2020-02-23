@@ -1,0 +1,5 @@
+/* pages/music-list/music-list.wxss */
+.container{
+    width:700rpx;
+    margin:0 auto;
+}

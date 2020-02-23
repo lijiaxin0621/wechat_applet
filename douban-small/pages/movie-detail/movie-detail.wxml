@@ -1,0 +1,44 @@
+<!--pages/movie-detail/movie-detail.wxml-->
+<wxs src="../../utils/filter.wxs" module="tools"></wxs>
+<view class="head">
+   <image class="bg" src="{{movie.images.small}}"></image>
+   <view class="blur"></view>
+   <view class="top-detail">
+   <text class="Btitle">{{movie.title}}</text>
+   <text>{{movie.pubdates[0]}}</text>
+   <view class="count">{{movie.wish_count}}
+       <text class="count-color">人喜欢</text>
+       {{movie.reviews_count}}
+       <text class="count-color">人评论</text>
+       </view>
+   </view>
+</view>
+  <image class="photo" src="{{movie.images.small}}" data-url="{{movie.images.small}}" bind:tap="handleImage"></image>
+<view class="content">
+    <view class="movie-detail">
+        <text class="ori-name">{{movie.original_title}}</text>
+        <view class="stars">
+        <text>评分:</text>
+        <image wx:for="{{tools.formatStar(movie.rating.stars)}}" wx:key="{{index}}"
+  class="star" src="{{item==1?'/images/icon/star.png':'/images/icon/none-star.png'}}"
+ ></image> 
+        <text class="rating"> {{movie.rating.average}}</text>
+        </view>
+        <text>导演：{{movie.directors[0].name}}</text>
+        <text>影人：{{movie.casts[0].name}}/{{movie.casts[1].name}}/{{movie.casts[2].name}}</text>
+        <text>类型：{{movie.genres}}</text>
+    </view>
+    <view class="movie-intro">
+        <text class="title">剧情简介</text>
+        <view>{{movie.summary}}</view>
+    </view>
+    <view class="movier">
+        <text class="title">影人</text>
+        <scroll-view scroll-x="{{X}}" class="scroll">
+            <view wx:for="{{movie.casts}}" wx:key="{{item.name}}" class="movier-list">
+                <image class="movier-pic" src="{{item.avatars.small}}" bind:tap="handleImage" data-url="{{item.avatars.small}}"></image>
+                <text class="movier-name">{{item.name}}</text>
+            </view>
+        </scroll-view>
+    </view>
+</view>

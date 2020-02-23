@@ -1,0 +1,5 @@
+/* pages/read/read.wxss */
+swiper{
+    height:500rpx;
+}
+

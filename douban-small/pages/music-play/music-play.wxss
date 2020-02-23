@@ -1,0 +1,88 @@
+/* pages/music-play/music-play.wxss */
+.container{
+    position: relative;
+    width: 750rpx;
+    height:1100rpx;
+    z-index:1
+}
+.handle{
+    width: 250rpx;
+    height: 400rpx;
+    position: absolute;
+    left: 50%;
+    transform: rotate(0deg);
+    transform-origin: 28px 27px;
+    z-index:3
+}
+.playmusic{
+    position: absolute;
+    width: 100rpx;
+    height: 100rpx;
+    top: 800rpx;
+    left:350rpx;
+    z-index:3
+}
+.playmusic image{
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.pic{
+    width:250rpx;
+    height: 250rpx;
+    border-radius: 50%;
+    position: absolute;
+    top: 34%;
+    left: 35%;
+    z-index:3
+}
+.bg-pic{
+    width:750rpx;
+    height:1100rpx;
+    position: absolute;
+    top:0%;
+    left:0%;
+    z-index:1
+}
+.cover{
+    width:750rpx;
+    height:1200rpx;
+    position: absolute;
+    top:0%;
+    left:0%;
+    z-index:2;
+    background:rgba(170,170,170,0.5);
+    overflow: hidden;
+}
+.pan{
+    width: 400rpx;
+    height: 400rpx;
+    position: absolute;
+    top: 300rpx;
+    left: 25%;
+    z-index:3
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg)
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+.rotate{
+    animation: rotate 4s linear infinite;
+    animation-play-state: paused;
+}
+.paused{
+  animation: rotate 4s linear infinite;
+  animation-play-state: running;
+}
+
+.move{
+  transform: rotate(20deg)
+}
+
+.unmove{
+  transform: rotate(0deg)
+}

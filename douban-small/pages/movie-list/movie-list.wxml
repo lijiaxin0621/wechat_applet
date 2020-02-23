@@ -1,0 +1,6 @@
+<!-- pages/movie-detail/movie-detail.wxml -->
+<view class="container">
+    <view class="flex-grid">
+        <v-movie wx:for="{{movies}}" wx:key="{{item.id}}" data="{{item}}"></v-movie>
+    </view>
+</view>

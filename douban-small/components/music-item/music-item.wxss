@@ -1,0 +1,13 @@
+/* components/music-item/music-item.wxss */
+.img{
+    width:200rpx;
+    height:280rpx;
+}
+.name{
+    font-size:30rpx;
+}
+.item{
+    width:200rpx;
+    display: flex;
+    flex-direction: column;
+}

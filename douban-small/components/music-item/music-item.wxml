@@ -1,0 +1,6 @@
+<!--components/music-item/music-item.wxml-->
+<view class="item" bind:tap="handleToggle">
+    <image class="img" src="{{data.coverImgUrl}}"></image>
+    <text class="name">{{data.name}}</text>
+</view>
+

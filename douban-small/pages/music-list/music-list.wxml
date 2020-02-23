@@ -1,0 +1,6 @@
+<!--pages/music-list/music-list.wxml-->
+<view class="container">
+    <view class="flex-grid">
+        <v-music wx:for="{{musics}}" wx:key="{{item.id}}" data="{{item}}"></v-music>
+    </view>
+</view>

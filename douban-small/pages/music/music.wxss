@@ -1,0 +1,10 @@
+/* pages/music/music.wxss */
+.item{
+    width:700rpx;
+    margin:30rpx auto;
+}
+.title{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

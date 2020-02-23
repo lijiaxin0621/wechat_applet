@@ -1,0 +1,26 @@
+/* components/moive-item/movie-item.wxss */
+.img{
+    width:200rpx;
+    height:280rpx;
+}
+.star{
+    width:35rpx;
+    height:35rpx;
+}
+.item{
+    width:200rpx;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 25rpx;
+    line-height: 50rpx;
+}
+.rating{
+    font-size:24rpx;
+    color:rgb(90,90,90)
+}
+.btm{
+    display: flex;
+    align-items: center;
+}

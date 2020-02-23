@@ -1,0 +1,48 @@
+/* pages/read-detail/read-detail.wxss */
+.collection,.share{
+    width:100rpx;
+    height:100rpx;
+}
+.top{
+    width:750rpx;
+    height:450rpx;
+    position: relative;
+}
+.top-pic{
+    width:750rpx;
+    height:450rpx;
+}
+.music-icon{
+    position: absolute;
+    top:30%;
+    left:40%;
+    text-align: center;
+    width:150rpx;
+    height:150rpx;
+}
+.user-pic{
+    width:60rpx;
+    height:60rpx;
+}
+.content{
+    width:700rpx;
+    margin:40rpx auto;
+}
+.detail{
+    display: flex;
+    font-size:15px;
+    color:rgb(97, 97, 97);
+}
+.type{
+    margin: 0 30rpx;
+}
+.title{
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: 5rpx;
+    color:rgb(58, 58, 58);
+}
+.foreword{
+    font-size:14px;
+    display: block;
+}

@@ -1,0 +1,15 @@
+<!--pages/music-detail/music-detail.wxml-->
+
+<view class="container">
+    <view class="topImg">
+        <image src="{{coverImgUrl}}" class="top"></image>
+    </view>
+    <view class="item" wx:for="{{music}}" wx:key="{{item.id}}" data-id="{{item.id}}" data-img="{{item.img}}" bind:tap="handleClick">
+       <image class="pic" src="{{item.picUrl}}"></image>
+        <view class="all-name">
+        <text class="name">{{item.name}}</text>
+        <text class="arName">{{item.arName}}</text>
+        </view>
+        <image class="pause" src="/images/icon/pause.png"></image>
+    </view>
+</view> 

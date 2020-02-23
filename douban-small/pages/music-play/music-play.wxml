@@ -1,0 +1,13 @@
+<!-- pages/music-play/music-play.wxml -->
+<view class="container">
+<image class="pan" src ="/images/pan.png"></image>
+<image class="handle {{isPlay?'move':'unmove'}}" src="/images/shou.png"></image>
+<view class="bg" wx:for="{{song}}" wx:key="{{item.id}}">
+    <image class="pic {{!isPlay?'rotate':'paused'}}" src="{{item.img}}"></image>
+    <image class="bg-pic" src="{{item.img}}"></image>
+    <view class="cover"></view>
+</view>
+<view class="playmusic" wx:for="{{song}}" wx:key="{{item}}">
+    <image bind:tap="handleMusic" data-url="{{item.src}}" src="{{isPlay?'/images/play.png':'/images/pause.png'}}"></image>
+</view>
+</view>

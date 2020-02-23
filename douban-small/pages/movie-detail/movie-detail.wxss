@@ -1,0 +1,103 @@
+/* pages/movie-detail/movie-detail.wxss */
+/* */
+.bg{
+    width:100%;
+    height:400rpx;
+}
+.head{
+    position: relative;
+}
+.head .blur{
+    position: absolute;
+    width:100%;
+    height:400rpx;
+    background:rgba(51,51,51,.3);
+    left:0;
+    top:0;
+    backdrop-filter:blur(10px);
+}
+.top-detail{
+    width:100%;
+    height:400rpx;
+    position: absolute;
+    top:0;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    font-size:30rpx;
+    line-height: 100rpx;
+    padding:50rpx 40rpx;
+}
+.Btitle{
+    font-size:50rpx;
+}
+.count{
+    color:#e20c0c;
+}
+.count-color{
+    margin-left:0 10rpx;
+    color:#777;
+}
+.photo{
+    width:185rpx;
+    height:235rpx;
+    position: absolute;
+    top:220rpx;
+    right:45rpx;
+}
+.content>view{
+    border-bottom: 1px solid #777;
+    padding:40rpx;
+    display: flex;
+    flex-direction: column;
+    color:#555;
+    line-height: 60rpx;
+    font-size:30rpx;
+}
+.ori-name{
+    font-size:40rpx;
+    color:#333;
+    margin-bottom: 40rpx;
+}
+.title{
+    font-size:40rpx;
+    color:#222;
+    margin-bottom: 20rpx;
+}
+.scroll{
+    white-space: nowrap;
+}
+.scroll view{
+    display: inline-flex;
+}
+.item{
+    width:200rpx;
+    height:270rpx;
+} 
+.movier-list{
+    display: flex;
+    flex-direction: column;
+    width:220rpx;
+}
+.movier-pic{
+    width:180rpx;
+    height:210rpx;
+}
+.movier-name{
+    width:220rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.star{
+    width:30rpx;
+    height:30rpx;
+    margin:10rpx 0;
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+}
+.rating{
+    margin-left:20rpx;
+}
