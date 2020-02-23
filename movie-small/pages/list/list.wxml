@@ -1,0 +1,10 @@
+<!-- pages/list/list.wxml -->
+<image class="top-pic" src="/images/top.png"></image>
+<view class="title">豆瓣电影榜单集合</view>
+<view class="small-title">最新，最IN的影视信息收集</view>
+<view class="item" wx:for="{{movies}}" wx:for-item="list" wx:key="{{item.id}}">
+    <view class="list" bind:tap="handleMore" data-url="{{list.subTitle}}" data-title="{{list.title}}">
+        <text>{{list.title}}</text>
+        <text class="more">></text>
+    </view>
+</view>

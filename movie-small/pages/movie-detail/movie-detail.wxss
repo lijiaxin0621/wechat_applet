@@ -1,0 +1,29 @@
+/* pages/movie-detail/movie-detail.wxss */
+.content{
+    width:600rpx;
+    height:1000rpx;
+    margin:80rpx 100rpx;
+}
+.pic{
+    width:550rpx;
+    height:750rpx;
+}
+.title{
+    text-align: center;
+    color:#666;
+}
+.detail{
+    font-size:33rpx;
+    display: flex;
+    flex-direction: column;
+    line-height: 50rpx;
+    color:rgb(53, 53, 53);
+}
+.desc{
+    margin:40rpx 0;
+    color:rgb(48, 47, 47);
+}
+.summary{
+    font-size: 34rpx;
+    color:rgb(114, 113, 113);
+}

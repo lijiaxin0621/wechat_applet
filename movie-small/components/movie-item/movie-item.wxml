@@ -1,0 +1,12 @@
+<!--components/movie-item/movie-item.wxml-->
+<view class="item" bind:tap="handleClick">
+    <view>
+    <image class="pic" src="{{data.images.small}}{{data.subject.images.small}}"></image>
+    </view>
+    <view class="detail">
+    <text class="name">{{data.title}}{{data.subject.title}}</text>
+    <text class="time">{{data.pubdates[0]}}{{data.subject.pubdates[0]}}</text>
+    <text class="direct">{{data.directors[0].name}}{{data.subject.directors[0].name}}</text>
+    </view>
+    <view class="num">{{data.rating.average}}{{data.subject.rating.average}}</view>
+</view>

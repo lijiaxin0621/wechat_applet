@@ -1,0 +1,35 @@
+/* components/movie-item/movie-item.wxss */
+.item{
+    padding:20rpx 30rpx;
+    height:160rpx;
+    border-bottom:1px solid #777;
+    display: flex;
+    justify-content:space-around;
+}
+.detail{
+    width:500rpx;
+    display: flex;
+    flex-direction: column;
+    line-height:55rpx;
+}
+.name{
+    font-size:38rpx;
+    font-weight: bold;
+}
+.time{
+    font-size:32rpx;
+    color:#555;
+}
+.direct{
+    font-size:36rpx;
+    color:#666;
+}
+.pic{
+    width:150rpx;
+    height:150rpx;
+    margin-right:30rpx;
+}
+.num{
+    color:orangered;
+    font-weight: bold;
+}

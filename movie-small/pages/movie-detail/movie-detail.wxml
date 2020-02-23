@@ -1,0 +1,17 @@
+<!-- pages/movie-detail/movie-detail.wxml -->
+<view class="container">
+    <view class="content">
+    <image class="pic" src="{{movie.images.small}}"></image>
+    <view class="title">{{movie.title}}</view>
+    <view class="detail">
+    <text>评分：{{movie.rating.average}}</text>
+    <text>导演：{{movie.directors[0].name}}</text>
+    <text>主演：{{movie.casts[0].name}} {{movie.casts[1].name}} {{movie.casts[2].name}} {{movie.casts[3].name}}</text>
+    </view>
+    <view class="desc">摘要</view>
+    <view class="summary">{{movie.summary}}</view>
+    </view>
+    
+    
+    
+</view>

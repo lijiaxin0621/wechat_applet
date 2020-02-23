@@ -1,0 +1,22 @@
+<!-- pages/search/search.wxml -->
+<view class="container">
+    <form bind:submit="handleSubmit">
+        <input type="text" name="keyword" placeholder="请输入搜索内容" />
+        <button form-type="submit">搜索</button>
+    </form>
+    <view class="content">
+    <view class="item" wx:for="{{lists}}" wx:key="{{item}}">
+        <image class="pic" src="{{item.image}}"></image>
+
+        <view class="center">
+        <text class="">{{item.title}}</text>
+        <text class="">{{item.rating.average}}分（{{item.rating.numRaters}}人评价）</text>
+    
+        <view class="detail">
+        <text class="">{{item.author[0]}}/{{item.translator}}/{{item.publisher}}/{{item.pubdate}}/{{item.price}}</text>
+        
+        </view>
+        </view>
+    </view>
+    </view>
+</view>

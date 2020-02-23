@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "v-movie":"/components/movie-item/movie-item"
+  },
+  "navigationBarTitleText":"豆瓣《 电影"
+}

@@ -1,0 +1,5 @@
+<!--pages/movie/movie.wxml-->
+<view class="container">
+    <view class="top">{{toptitle}}</view>
+    <v-movie wx:for="{{movies}}" wx:key="{{item.id}}" data="{{item}}"></v-movie>
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/movie/movie",
+    "pages/search/search",
+    "pages/personal/personal",
+    "pages/movie-detail/movie-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#35495E",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "backgroundColorTop": "#ffffff",
+    "backgroundColorBottom": "#ffffff",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#aaa",
+    "selectedColor": "#333",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "榜单",
+        "iconPath": "/images/board.png",
+        "selectedIconPath": "/images/board-actived.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "/images/search.png",
+        "selectedIconPath": "/images/search-actived.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "/images/profile.png",
+        "selectedIconPath": "/images/profile-actived.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

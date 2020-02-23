@@ -1,0 +1,33 @@
+/* pages/list/list.wxss */
+.top-pic{
+    height:400rpx;
+}
+.item{
+    width:650rpx;
+    margin:40rpx auto;
+}
+.title{
+    color:#333;
+    font-size:56rpx;
+    font-weight: bold;
+    padding-left: 40rpx;
+}
+.small-title{
+    color:#666;
+    font-size:33rpx;
+    padding-left: 40rpx;
+}
+.list{
+    width:650rpx;
+    height:100rpx;
+    line-height:100rpx;
+    font-size:40rpx;
+    background:#eee;
+    display: flex;
+    justify-content: space-between;
+    color:#333;
+    margin:30rpx 0;
+}
+.more{
+    color:#aaa;
+}
